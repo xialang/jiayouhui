@@ -1,0 +1,99 @@
+html,body{height:100%;width:100%}
+.huowb:hover .inhuo{display:block}
+#nav1{background:url(img/nav_b_bg.jpg) no-repeat 203px center  #333}
+.inhuo{display:none;z-index:3}
+
+
+.huomain{overflow: hidden;width: 1200px;margin: 15px auto;}
+
+.mainL{ width: 957px;overflow: hidden;}
+.title{border-bottom: 1px solid #666;padding-left: 5px;}
+.mainL h2{height: 32px;line-height: 32px;margin-bottom: 4px;}
+.mainL h2 a{color: #333;font-size: 14px}
+
+
+/*===================huomain=============*/
+#dl{border:1px solid #ddd}
+#dl dl{overflow: hidden;line-height: 58px;position: relative;}
+#dl dl dt{width: 80px;background: #f1f1f1;font-size: 14px;font-weight: bold;color: #444;padding-left: 10px;height: 100%;border-bottom: 1px dashed #999;}
+#dl dl dd{width: 840px;overflow: hidden;position: relative;float: left;height: 58px;padding-left: 10px;border-bottom:1px dashed #999}
+#dl .bdno dt,#dl .bdno dd{border-bottom: none;}
+#dl dl dd a{display: block;height: 22px;margin: 18px 35px 18px 0;overflow: hidden;float: left;line-height: 22px;font-size: 12px;color: #666;padding: 0 6px;}
+#dl dl span{display: block;
+padding-right: 16px;background: url(img/more.png) no-repeat right -28px;font-size: 12px;color: #333;cursor: pointer;height: 16px;line-height: 16px;position: absolute;right: 16px;bottom: 20px;}
+
+#dl dl span.show{background-position: right 4px;}
+
+/****************总结列表*********************/
+.filter{margin-bottom: 30px;height: 45px;border: 1px solid #E5E5E5;background: none repeat scroll 0% 0% #F1F1F1;}
+.filter li{width: 88px;float: left;height: 46px;overflow: hidden;text-align: center;line-height: 45px;font-size: 12px;color: #333;cursor: pointer;}
+.filter li:hover{background:#fff}
+li#jisuan{color: #DC0F50;border-left: 1px solid #E5E5E5;background: none repeat scroll 0% 0% #FFF;border-right: 1px solid #E5E5E5;width: 222px;padding-left: 21px;}
+li#jisuan input{width: 32px;padding: 0px 10px;float: left;text-align: left;margin-top: 11px;height: 22px;line-height: 22px;font-size: 12px;color: #666;border: 1px solid #D6D6D6;}
+li#jisuan span{padding: 0px 10px;color: #BDBDBD;}
+li#jisuan a{display: block;width: 50px;height: 24px;line-height: 24px;background: none repeat scroll 0% 0% #DC0F50;text-align: center;font-size: 12px;color: #FFF;margin: 11px 0px 0px 15px;}
+/***********paixu**************************/
+
+#ac-list{padding: 0px 10px;width: 100%;margin-bottom: 0px;overflow:hidden;margin:0 auto}
+#ac-list li{float: left;width: 214px;padding: 0px 10px;overflow: hidden;margin-bottom: 30px;}
+#ac-list li:hover{background: #fff}
+#ac-list li a{display: block;overflow: hidden;position: relative;}
+#ac-list li a .smalpic{position: absolute;left: 0px;top: 0px;width: 24px;height: 24px;z-index: 15;}
+#ac-list li img{width: 214px;height: 214px;}
+#ac-list li a b{padding: 5px 0px;overflow: hidden;height: 40px;line-height: 20px;font-size: 14px;color: #333;display: block;}
+#ac-list li a p{height: 24px;line-height: 24px;font-size: 20px;color: #E11F24;}
+#ac-list li a font{display: block;font-size: 14px;color: #666;}
+#ac-list li a p i{float: right;font-size: 14px;color: #999;text-decoration: line-through;}
+
+
+#fanye{margin-bottom: 30px;text-align: center;overflow: hidden;}
+#fanye span a:hover,#fanye span #next4,#fanye span #prev4,#fanye span a.hong,#yes{border: 1px solid #DC0F50;color: #FFF;background: none repeat scroll 0% 0% #DC0F50;}
+#fanye span a,#fanye span b{display: inline-block;padding: 0px 15px;height: 34px;line-height: 34px;border: 1px solid #E5E5E5;background: none repeat scroll 0% 0% #FAFAFAtext-align: center;margin-right: 5px;font-size: 14px;color: #666;}
+#fanye em{padding-left: 18px;line-height: 34px;font-size: 14px;color: #666;margin-right: 10px;}
+#fanye em input{width: 34px;height: 34px;text-align: center;border: 1px solid #E5E5E5;margin: 0px 3px;}
+#fanye #yes{color:#fff}
+
+
+
+
+
+/**************mianR************/
+.mainR{width: 233px;overflow: hidden;}
+.mainR h2{margin-bottom: 5px;height: 32px;line-height: 32px;overflow: hidden;font-size: 20px;color:#333;border-bottom: 1px solid #999}
+.mainR li{height: 80px;padding: 10px 0;border-bottom: 1px solid #e5e5e5;margin-top: -1px;overflow: hidden;position: relative;padding-left: 97px;}
+.mainR li a{display: block;height: 80px}
+.mainR li a i{display: block;width: 25px;height: 25px;line-height: 18px;padding-left: 5px;font-size: 12px;color: #fff;position: absolute;left: 0;top: 10px;background: url(img/biao_bg.png) no-repeat;z-index:5}
+.mainR li a b{display: block;height: 32px;line-height: 16px;overflow: hidden;font-size: 14px;color: #333;margin-bottom: 22px;}
+.mainR li a em{font-size: 20px;color: #dc0f50;line-height: 26px;}
+.mainR li a img{width: 80px;height: 80px;position: absolute;left: 0;top: 10px;}
+.mainR li a .i2{background-position: 0 -26px;}
+.mainR li a .i3{background-position: 0 -52px;}
+
+
+/******************love-list无缝**********************/
+.bodytitl{height: 32px;overflow: hidden;margin-bottom: 30px;border-bottom:1px solid #dfdfdf;}
+.bodytitl h2{float: left;padding-right: 8px;font-size: 24px;color: #333;background: #fff;line-height: 24px;padding-top: 4px;font-weight: normal;}
+
+.live-list{width:1200px;margin:0 auto}
+.live-list .bd{overflow: hidden;height: 300px;position: relative;}
+.live-list .bd ul{overflow: hidden;padding: 0 25px;height: 298px;width: 100000%;position: absolute;left: 0px;top: 0px;}
+.live-list .bd ul li{width: 200px;margin: 0px 22px 0 11px;overflow: hidden;float: left;}
+.live-list .bd ul li a{position: relative;display: block;width: 200px;overflow: hidden;}
+.live-list .bd ul li a img{width: 200px;height: 200px;display: block;overflow: hidden;}
+.live-list .bd ul li a span{display: block;height: 24px;margin-top: -24px;text-align: center;font-size: 14px;color: #fff;line-height: 24px;background: #333;position: relative;filter: alpha(opacity=70);opacity: 0.7;}
+.live-list .bd ul li a b{display: block;padding: 5px 0;line-height: 21px;height: 40px;overflow: hidden;font-size: 14px;color: #333;}
+.live-list .bd ul li a font{    display: block;line-height: 24px; color: #dc0f50;font-size: 20px;}
+.live-list .bd ul li a font i{padding: 0 8px;font-size: 12px;color: #999;text-decoration: line-through;}
+.live-list .bd .prev1{background: url(../css/img/prev_bg.png) no-repeat;left: 0;position:absolute;margin-top: -80px;width: 30px;height:60px;top: 50%;opacity: 0.5;}
+.live-list .bd .next1{background: url(../css/img/next_bg.png) no-repeat;right: 0;position:absolute;margin-top: -80px;width: 30px;height: 60px;top: 50%;opacity: 0.5;}
+
+
+/******************弹窗*****************/
+.chang{height:300px;width:500px;position:absolute;left: 100px;top:300px; background: #fff;border:1px solid #ccc;z-index: 18;display:none}
+.chang h2{height:30px;background: url(img/bg.jpg);line-height: 30px;font-size: 18px;text-align: right;color: #999;padding-right: 30px}
+.chang a{width: 40px;height: 40px;background: url(img/close_bg.png) no-repeat;text-indent: -999em;display: block;right: -20px;top: -20px;position: absolute;cursor: pointer;}
+#zhezhao{display:none;opacity:.5;filter:alpha(opacity:50);background:#000;width:100%;height:100%;z-index:17;top:0;left:0;position:absolute}
+.chang img{width: 500px;}
+
+
+

@@ -1,0 +1,162 @@
+div,p,form,input,dl,dt,dd,ul,li,html,body,h1,h2{padding:0;margin:0}
+body{font: 14px/22px "microsoft yahei";}
+.fl{float:left}
+.fr{float:right}
+li{list-style: none}
+h2{font-weight:normal}
+img{border:0}
+a,i,b,em{color: #666;cursor: pointer;text-decoration: none;font-style: normal;font-weight: normal;}
+.top,.head,.main{width: 1200px;margin:0 auto;color: #666}
+.clear:after{content:".";clear:both;display:block;height:0;overflow:hidden;visibility:hidden}
+a{cursor:pointer;outline: medium none;}
+
+
+.current{color: #dc0f50;}
+
+
+/*=====================top============*/
+
+
+
+/*====================nav===============*/
+
+#nav1{display: block;width: 193px;cursor: pointer;border-bottom: 2px solid #dc0f50;margin-right: 30px;height: 40px;overflow: hidden;line-height: 40px;float: left;background: #333;color: #fff;padding: 0 20px;}
+.nav{overflow: hidden;width: 900px;height: 40px;}
+.nav li{overflow: hidden;padding: 0 16px 0 24px;line-height: 40px;height: 40px;float:left}
+.nav li a{font-size: 18px;}
+.nav li a:hover{color:#dc0f50;}
+.nav1T{width: 221px;border: 1px solid #e5e5e5;border-top: none;overflow: hidden;position: absolute;height: 560px;left: 0;top: 40px;margin-top: 2px;background: #fff;padding-left:10px}
+
+.innavT a{display: block;padding: 0 20px;height: 40px;line-height: 40px;font-size: 14px;color: #333;}
+.innavT a:hover{color: #fff;background: #dc0f50;}
+
+
+.headBot{height: 40px;position: relative}
+.wrap_top{height: 30px;line-height: 30px;background: #e5e5e5;text-align: right;line-height: 30px;text-align: right;}
+.top a{margin-right: 18px;}
+.top a:hover{color:#dc0f50}
+#shoppingCartNum,#discountNum{margin:0 5px;color:#dc0f50}
+.iphone a,.wx a {position:relative;padding-left:12px}
+.top span,#fontShoppingCart,#fontDiscount{margin-right: 18px;}
+.tan{text-align: center;background: #fff;left: -102px;top: 30px;position: absolute;z-index: 1000;width: 122px;border: 1px solid #e5e5e5;height: 164px;padding: 14px 13px 0 13px;display:none}
+.tan em{font-weight: normal;font-style: normal;font-size: 16px;line-height: 0px}
+.tan em:hover{color:#666;}
+.tan img{width:121px}
+.tan img{font-size: 16px;color: #333;}
+.tan i {display: inline-block;width: 14px;height: 11px;background: url(../images/ware_list.png) no-repeat;position: absolute;left: 110px;top:-11px;}
+.wx a{background:url(../images/wx.png) no-repeat left;padding-left: 18px}
+.iphone a{background:url(../images/iphone.png) no-repeat left;padding-left: 12px}
+.iphone a:hover strong,.wx a:hover strong{display:block} 
+
+
+/*===================head==================*/
+.head{padding-top: 32px;border-bottom: 2px solid #dc0f50;}
+.headTop{height:99px;}
+.headTop h1{margin: 9px 110px 0 0;width:240px;overflow: hidden;height:44px}
+
+.headC{margin-right: 156px;width: 500px;height: 99px;position: relative;float: left;}
+.headC input{width: 369px;border: 2px solid #dc0f50;height: 20px;padding: 10px 112px 10px 15px;overflow: hidden;font-size: 14px;color: #666;line-height: 20px;}
+.headC .sou{display: block;width: 98px;height: 44px;line-height: 44px;text-align: center;color: #fff;background: #dc0f50;font-size: 16px;position: absolute;right: 0;top: 0;}
+.headC p{padding: 0 5px;line-height:36px}
+.headC p a{margin-right: 15px;font-size: 14px;display: inline-block;float:left;}
+
+/*********************************************************/
+
+
+/*************
+ * *************************购物车***********************/
+
+
+
+.ware_list{display: none;width: 308px;border: 1px solid #e5e5e5;position: absolute;left: -187px;top: 47px;background: #fff;z-index: 1;}
+
+.headTop .gou .go{display:block;margin:1px;padding-left:30px;height:42px;line-height:42px;color:#333;width:90px;border: 1px solid #e5e5e5;text-align:center;font-size:14px;background: url(../images/car_icon.png)  no-repeat 10px center;}
+.go i{display:inline-block;height:16px;background:#dcof50;position:absolute;right:-8px;top:-6px;line-height:16px;background:#dc0f50;border-radius: 8px;font-style:normal;padding:0 5px;font-size:12px;color: #fff}
+.gou{position:relative;z-index: 2;}
+
+.gou em{display: none;width: 14px;height: 11px;background: url(../images/ware_list.png) no-repeat;position: absolute;left: 63px;top: 37px;z-index: 3;}
+.gou:hover em{display:block}
+
+
+.gou:hover .ware_list{display: block}
+.wu{height: 58px;line-height: 58px;font-size: 14px;color: #999;padding-left: 64px;background: url(../images/car.png) no-repeat 20px center;}
+.you h2{height: 20px;line-height: 20px;padding: 10px 0 0 10px;font-size: 16px;color: #333;}
+.you .bd{position: relative;z-index: 1;margin-bottom: 18px;overflow: hidden;height: 288px;}
+.description2{border-left: 1px solid #e5e5e5;border-right: 1px solid #e5e5e5;background: #FFF;padding-right: 10px;height: 287px;width: 297px;overflow: hidden;}
+.you{display:none}
+.ft{display: none;height: 42px;padding: 5px 12px;overflow:hidden;background: #e5e5e5;}
+.ft span{display:inline-block;padding-top:6px}
+.ft span a{display: inline-block;width: 90px;height: 30px;line-height: 30px;text-align: center;font-size: 14px;color: #fff;background: #dc0f50;}
+.ft font{display: block;line-height: 20px;height: 20px;font-size: 12px;}
+.ft font i{font-weight: bold;padding: 0 5px;}
+.ft font b{font-size: 16px; color: #dc0f50; padding: 0 5px;}
+
+
+
+
+/**********************************尾部*******************************/
+.warrant{overflow: hidden;margin: 20px auto 45px auto;width: 1200px;}
+.warrant li{height: 54px;padding: 0 25px 0 82px;float: left;background: url(../css/img/warrant_icon.png) no-repeat 15px 0;}
+.warrant .l2{background-position:15px -55px ;}
+.warrant .l3{background-position:15px -110px ;}
+.warrant .l4{background-position:15px -165px ;}
+.warrant .l5{background-position:15px -220px ;}
+.warrant li b{display: block;line-height: 22px;padding-top: 5px;font-size: 16px;color: #333;}
+.warrant li i{display: block;line-height: 18px;font-size: 12px;color: #999;}
+
+/********************右边的三个菜单**********************/
+.drift{right: 10px;top: 70%;margin-top: -160px;width: 60px;position: fixed;}
+.drift li{height: 60px;margin-bottom: 10px;}
+.drift li a{position: relative;display: block;height: 60px;background: url(../css/img/icon_bg.png) no-repeat;}
+.drift li .a1{background-position:0 -70px;}
+.drift li .a1:hover{background-position:0 -70px;}
+.drift li .a2{background-position:0 -140px;font-size: 0;}
+.drift li .a2:hover{background-position:0 -140px;}
+.drift li a .tan2{text-align: center;background: #fff;right: 74px;top: 0;position: absolute;z-index: 1000;width: 122px;border: 1px solid #e5e5e5;height: 164px;padding: 14px 13px 0 13px;display:none}
+.drift li a .tan2 i{display: inline-block;width: 11px;height: 14px;background: url(../css/img/li_right.png) no-repeat;position: absolute;left: 148px;top: 30px;}
+.drift li a .tan2 img{width: 121px;height: 121px;}
+.drift li a .tan2 em{font-size: 16px;color: #333;line-height: 44px;}
+.drift li a:hover{background: url(../css/img/icon_bg2.png) no-repeat;}
+
+
+.cont{overflow: hidden;width: 1200px;margin: 0 auto;margin-bottom: 25px;}
+.contL{width: 860px;padding-left: 78px;float: left;overflow: hidden;}
+.contL dl{width: 20%;float: left;overflow: hidden;}
+.contL dl dt{color: #666;font-size: 16px;font-weight: bold;line-height: 30px;}
+.contL dl dt a{color: #666;}
+.contL dl dd{font-size: 12px;color: #999;line-height: 20px;}
+.contL dl dd a{color: #999;}
+
+.contR{float: right;overflow: hidden;width: 210px;padding-right: 50px;}
+.contR ul{overflow: hidden;margin-bottom: 10px;}
+.contR ul li{width: 79px;float: left;line-height: 25px;text-align: center;font-size: 12px;color: #666;font-weight: bold;margin-right: 26px;}
+.contR ul li img{width: 100%;}
+.contR p{padding-left: 35px;overflow: hidden;background: url(../css/img/mobile.png) no-repeat;}
+.contR p b{line-height: 26px;display: block;font-size: 20px;color: #666;font-weight: bold;}
+.contR p i{display: block;font-size: 12px;color: #999;line-height: 14px;margin-top: -3px;}
+
+
+
+/****************************footer****************************/
+.footer{background: #333;padding: 10px 0;}
+.infooter{width: 1200px;margin: 0 auto;overflow: hidden;}
+.infooter p{line-height: 26px;color: #999;font-size: 12px;padding: 0 5px;}
+.infooter p a{color: #999;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

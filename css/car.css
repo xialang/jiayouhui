@@ -1,0 +1,35 @@
+html,body{height:100%;width:100%}
+.huowb:hover .inhuo{display:block}
+#nav1{background:url(img/nav_b_bg.jpg) no-repeat 203px center  #333}
+.inhuo{display:none;z-index:3}
+
+.carmian{width:1200px;margin:0 auto;}
+
+.title{height: 55px;line-height: 55px;color: #333;font-size: 12px;}
+.title b{display: block;margin: 19px 8px 0 0;width: 35px;height: 16px;line-height: 16px;font-size: 12px;float: left;background: url(img/h2_bg.png) no-repeat;padding-left: 5px;color: #fff;}
+
+.carB{width: 1140px;background: #FFF;margin-bottom: 20px;line-height: 52px;height: 52px;padding: 23px 0 23px 0px;overflow: hidden;}
+
+.carB label{display: block;width: 75px;font-size: 14px;color: #333;}
+.carB label input{float: left;margin: 20px 12px 0 0;}
+.carB span{padding-left: 30px;color:#666}
+.carB span:hover{color:#dc0f50;cursor:pointer}
+.carB p{color: #999;line-height: 68px;font-size:18px;}
+.carB p i{color: #dc0f50;}
+.pad20{padding-right: 20px;}
+.carB .fs30{font-size:30px;padding-right:30px;line-height: 52px;}
+#jieSuan{width:120px;height: 52px;line-height: 52px;text-align: center;background: #dc0f50;display: inline-block;color:#fff;display:inline-block}
+
+
+.cartable{border-collapse: collapse;border: 1px solid #ddd;font-size:12px;}
+#all{margin-right:10px:position:relative}
+.cartable th{border-right:1px solid #fff;height: 43px;background: #f1f1f1;font-weight: normal;text-align: center;}
+.cartable td{height: 83px;padding: 16px 0;border-bottom: 1px solid #d6d6d6;text-align: center;line-height: 83px}
+.cartable td img{width: 83px;height: 83px;float: left;margin-right: 10px;}
+.cartable p:hover{color:#dc0f50;}
+.cartable span{font-size: 12px;font-weight: bold;color: #333;}
+.cartable input{}
+.text,.cartable td i{width: 28px;float: left;border-left: 1px solid #eaeaea;text-align: center;height: 24px;line-height: 24px;border: 1px solid #eaeaea;background:#fc0}
+.pad10{margin-left: 30px;}
+
+

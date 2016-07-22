@@ -1,0 +1,66 @@
+.huowb:hover .inhuo{display:block}
+.inhuo{display:none;z-index:3}
+#nav1{background:url(img/nav_b_bg.jpg) no-repeat 203px center  #333}
+
+
+
+.details{width: 1200px;margin: 0 auto;}
+.title{height: 40px;line-height: 40px;padding: 0 15px;font-size: 18px;border-bottom: 1px solid #ddd;}
+.datailsT{padding: 29px;position: relative;border: 1px solid #d6d6d6;background: #fff;margin-bottom: 20px;overflow: hidden;border: 1px solid #ddd}
+
+.mainL{width: 545px;overflow: hidden;height: 512px;border:1px solid #ddd}
+.mainL ul li{height: 64px;padding: 5px 0;cursor: pointer;}
+.mainL .smallPic{width: 64px;height: 545px;border-right: 1px solid #ddd;padding-top:20px}
+.mainL .smallPic ul li img{width: 62px;height: 62px;border: 1px solid #fff;}
+.mainL .bigPic{width: 480px;height: 545px;} 
+.mainL .bigPic img{display: block;margin-bottom: 20px;height: 460px;width: 460px;}
+.mainR{float: right;width: 550px;position: relative;}
+.mainR h3{color: #666;font-size: 20px;height: 54px;line-height: 30px;padding: 7px 0;border-bottom: 1px solid #d6d6d6;font-weight: normal;}
+.lh35{line-height: 35px;margin-bottom: 10px;}
+.lh35 b{color: #dc0f50;font-size: 30px;margin-right: 8px;}
+.lh35 font{display: inline-block;height: 16px;line-height: 16px;border: 1px solid #ef8e8f;background: #fcebeb;color: #dc0f50;padding: 0 5px;border-radius: 1px;margin: 0 5px 0 0;position: relative;top: -5px;font-size: 12px;}
+.lh35 em{display: block;color: #666;line-height: 16px;font-size: 18px;text-decoration: line-through;}
+.w40{line-height:40px;height: 40px;font-size: 12px;color:#666;}
+.w40 b{text-align: left;display: inline-block;width: 50px;}
+.w40 span{padding-left:15px}
+.w40 .tiejia{height: 16px;line-height: 16px;padding: 0 5px;border: 1px solid #f2843c;background: #fcf7f3;border-radius: 1px;margin-left:15px;font-size: 12px;color: #f07423;display:inline-block;}
+.shuliang{line-height: 22px;padding: 5px 0;overflow: hidden;}
+.shuliang b{display: block;width: 62px;line-height: 22px;font-size: 12px;color: #666;display: inline-block;}
+.shuliang a{ display: block;width: 15px;height: 20px;overflow: hidden;display: inline-block;font-size:16px;line-height: 30px;overflow: hidden;padding:0 5px}
+.shuliang input{width: 44px;padding: 0 5px;border-left: 1px solid #d6d5d3;display: inline-block;border:1px solid #ccc;text-align: center;line-height: 20px;height: 20px;color: #666;font-size: 12px;border-right: 1px solid #d6d5d3;}
+.jieshao{padding:5px}
+.baozheng{height: 19px;line-height: 19px;overflow: hidden;padding: 7px 0 19px 0;}
+.baozheng span{display: block;float: left;margin-right: 32px;padding-left: 25px;font-size: 14px;color: #333;position:relative}
+.baozheng i{display: inline-block;width:50px;height:19px;margin-left:-32px;}
+.baozheng i img{width:19px;text-align: right;position:absolute;left: 25px;top:4px;}
+.goumai{height: 38px;line-height: 38px;}
+.goumai span{text-align:center;width: 160px;color: #fff;margin-left:5px;background:#fc0;display: block;cursor: pointer;display:block;float:left}
+.goumai b{display:block;float:left;width: 30px;padding-left: 26px;background: url(../css/img/icon_1.png) 0 -59px no-repeat;height: 21px;overflow: hidden;line-height:1;margin:10px}
+
+.datailsB{margin-bottom: 68px;border:1px solid #ddd;overflow: hidden;width:1200px;border-top:none;}
+.guowunav{height: 38px;border: 1px solid #e5e5e5;border-bottom: none;border-bottom:1px solid #ddd;border-left: none;}
+.guowunav li{width: 160px;height: 38px;line-height: 38px;float: left;background: #f5f5f5;text-align: center;font-size: 18px;color: #333;cursor: pointer;border-left:1px solid #ddd;border-bottom: 1px solid #ddd;}
+.guowunav li.active{height: 40px;margin-top:-1px;border:none;border-top:1px solid #dc0f50;color: #dc0f50;background:#fff}
+.guowunav li.li1{border-left:none}
+.xiangsi{overflow: hidden;padding: 60px 85px;width:100%;display: none;}
+.xiangsi img{display:block;}
+
+.SPJS{padding: 40px;min-height: 440px;overflow: hidden;display: none;width:100%}
+.SPJS li{font-size: 12px;color: #666;line-height: 40px;overflow: hidden;}
+.SPJS li b{width: 110px;display: block;float: left;text-align: right;padding-right: 10px;font-weight: bold;}
+
+
+.datailsB .show{display:block};
+
+
+
+
+
+
+
+
+
+
+
+
+

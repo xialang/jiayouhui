@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>购物车</title>
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../css/car.css"/>
+	</head>
+	<body>
+<div class="wrap">
+	<div class="wrap_top">
+	 	<div class="top">
+	 		<p>
+	            <a class="fl">收藏</a>
+	            <a href="" target="_self">首页</a><a href="html/denglu.html" id="topLogin">请登录</a>
+	            <a class="on" id="topLoginName" style="display:none;"></a>
+	            <a id="topLoginOut" style="display:none;">退出</a>
+	            <a href="html/zhuce.html" id="topRegister">免费注册</a>
+	            <span>|</span>
+	            <font id="fontShoppingCart">购物车<a id="shoppingCartNum">0</a>件</font>
+	            <a id="myJYH">我的家有</a>
+	            <font id="fontDiscount">可用优惠劵<a id="discountNum">0</a>张</font>
+	            <a id="myFavourites" href="xiangqing.html">我的收藏</a><span>|</span>
+	            <label class="iphone"><a>手机版<strong class="tan"><i></i><img src="../images/ewm022.jpg" alt=""><em>慧家有微信</em></strong></a></label>
+	            <label class="wx"><a num="202001-12">微信版<strong class="tan"><i></i><img src="../images/ewm022.jpg" alt=""><em>慧家有微信</em></strong></a></label>
+	        </p>
+	 	</div>
+	 </div>
+	 <!--================head============================-->
+	 <div class="head">
+	 	<div class="headTop"><h1 class="fl"><a href=""><img src="../images/logo.jpg" alt="" /></a></h1>
+	 		
+	 		<div class="fl headC">
+	 			<input type="text" /><a class="sou" href="">搜索</a>
+	 			<p class="clear">
+	 				<a>洗衣液</a> <a>螺丝刀</a> <a>斧头牌</a> <a>韩束</a> <a>无痕内衣</a> <a>薰衣草</a> <a>双立人</a> <a>海参</a><a>韩束</a> 
+	 			</p>
+	 		</div>
+	 		<div class="fr gou">
+            	<a class="go" href="#">
+                	我的购物车
+                	<i>0</i>
+                </a>
+                <em></em>
+                <div class="ware_list">
+                	<div id="car_yes" class="you">
+                		<h2>最新加入商品</h2>
+                		<ul class="bd description2"></ul>
+                	</div>
+                	<div class="ft">
+                		<span class="fr"><a href="">去购物车</a></span>
+                		<font>共<i id="i_totalnum">0</i>商品</font>
+                		<font>合计<b>￥0.00</b>元</font>
+                		
+                	</div>
+                	<div class="wu">购物车中还没有商品，赶紧去选购吧</div>
+                </div>
+            </div>
+	 	</div>
+	 	<div class="headBot hdshow">
+	 		<b id="nav1" class="huowb">
+	 			<a href="">全部商品分类</a>
+	 			<div class="nav1T inhuo">
+	 				<div class="innavT">
+	 					<a href="">海外购</a>
+	 					<a href="">生活电器</a>
+	 					<a href="">厨房电器</a>
+	 					<a href="">品质厨房</a>
+	 					<a href="">生活家居</a>
+	 					<a href="">家纺</a>
+	 					<a href="">服装服饰</a>
+	 					<a href="">箱包配饰</a>
+	 					<a href="">美妆个护</a>
+	 					<a href="">食品饮料</a>
+	 					<a href="">3C数码</a>
+	 					<a href="">宠物用品</a>
+	 				</div>
+	 			</div>
+	 		</b>
+	 		<ul class="nav fr">
+	 			<li>
+	 				<a href="">首页</a>
+	 			</li>
+	 			<li>
+	 				<a href="">TV直播</a>
+	 			</li>
+	 			<li>
+	 				<a href="">品牌汇</a>
+	 			</li>
+	 			<li>
+	 				<a href="">惠家有APP</a>
+	 			</li>
+	 			<li>
+	 				<a href="html/vip.html">家有尊享</a>
+	 			</li>
+	 		</ul>
+	 	</div>	
+	 </div>
+</div>
+
+<!--===========car==========-->
+<div class="carmian">
+	<h2 class="title">
+		<b>包邮</b><span>所有商品全场包邮(西藏、新疆地区除外)</span>
+	</h2>
+	<table class="cartable" >
+		<thead>
+			<tr>
+				<th width="98">
+					<label for="">
+					<input id="all" type="checkbox" />全选
+					</label><br />
+				</th>
+				<th width="560">
+					商品
+				</th>
+				<th width="125">
+					单价（元）
+				</th>
+				<th width="150">
+					数量
+				</th>
+				<th width="105">
+					小计（元）
+				</th>
+				<th width="102">
+					操作
+				</th>
+			</tr>
+			</thead>
+			<tbody id="Tb">
+				<!--<tr>
+					<td><input type="checkbox" /></td>
+					<td><img src="../css/img/f1c71a771c0146ea8504a2dd6ade7bf5.jpg" alt="" /><p class="">月亮湾进口野生即食海参滋补组</p></td>
+					<td><span>955.00</span></td>
+					<td><i class="pad10">+</i><input class="text" type="text" value="0" /><i>-</i></td>
+					<td><em>3820.00</em></td>
+					<td><b>删除</b></td>
+				</tr>-->
+			</tbody>
+		
+	</table>
+	<div class="carB">
+		<labe><input id="all2" type="checkbox" /><b>全选</b></lable>
+		<span class="closs">删除选中的商品</span>
+		<p class="fr"><b class="pad20">以选择56件商品</b><i class="fs30">应付45678元</i><a id="jieSuan" href="">去结算</a></p>
+	</div>
+</div>
+
+
+<!--=====================footer=========================-->
+ <ul id="ul_warrant" class="warrant">
+   	<li class="l1"><b>100%质量保证</b><i>质量有保障</i></li>
+   	<li class="l2"><b>在线支付 全场包邮</b><i>送货上门</i></li>
+   	<li class="l3"><b>支持银联刷卡付款</b><i>付款更安全</i></li>
+   	<li class="l4"><b>货到付款 开箱验货</b><i>满意才收货</i></li>
+   	<li class="l5"><b>7&times;24小时人工服务</b><i>微笑无时无刻 4008-678-210</i></li>
+</ul>
+<ul class="drift" id="backnav">
+   	<li><a href=""><strong class="tan2">
+   				<i></i>
+   				<img src="../css/img/ewm022.jpg" alt="" />
+   				<em>慧家有APP</em>
+   			</strong></a></li>
+   	<li><a class="a1" href=""><strong class="tan2">
+   				<i></i>
+   				<img src="../css/img/ewm022.jpg" alt="" />
+   				<em>惠家有微信</em>
+   			</strong></a></li>
+   	<li><a class="a2" id="back" href="">返回顶部</a></li>
+</ul>
+<div class="foot">
+   	<div class="cont">
+   		<div class="fl contL">
+   			<dl>
+   				<dt><a href="">关于我们</a></dt>
+   				<dd><a href="">公司介绍</a></dd>
+   				<dd><a href="">招聘信息</a></dd>
+   				<dd><a href="">联系我们</a></dd>
+   				<dd><a href="">用户隐私条款</a></dd>
+   			</dl>
+   			<dl>
+   				<dt><a href="">订购指南</a></dt>
+   				<dd><a href="">交易条款</a></dd>
+   				<dd><a href="">注册/购物流程</a></dd>
+   				<dd><a href="">退/换货</a></dd>
+   				<dd><a href="">积分说明</a></dd>
+   				<dd><a href="">发票指南</a></dd>
+   				<dd><a href="">会员制度说明</a></dd>
+   			</dl>
+   			<dl>
+   				<dt>
+   					<a href="">配送服务</a>
+   				</dt>
+   				<dd><a href="">配送区域</a></dd>
+				<dd><a href="">配送时间</a></dd>
+				<dd><a href="">验货与签收</a></dd>
+   			</dl>
+   			<dl>
+   				<dt><a href="">支付方式</a></dt>
+   				<dd><a href="">网上支付</a></dd>
+   				<dd><a href="">货到付款</a></dd>
+   			</dl>
+   			<dl>
+   				<dt><a href="">合作专区</a></dt>
+   				<dd><a href="">成为供应商</a></dd>
+   				<dd><a href="">供应商系统</a></dd>
+   				<dd><a href="">合作伙伴</a></dd>
+   			</dl>
+   		</div>
+   		<div class="fr contR">
+   			<ul><li><img src="../css/img/ewm022.jpg" />惠家有微信</li>
+   			<li><img src="../css/img/ewm022.jpg" alt="" />惠家有APP</li></ul>
+   			<p>
+   				<b>4008-678-210</b><i>客服 7x24小时 (全年无休)</i>
+   			</p>
+   		</div>
+   	</div>
+</div>
+<div class="footer">
+   	<div class="infooter">
+   		<p>友情链接：<a href=""> 南京手机报价</a>
+   		<a href="">竞拍</a>
+   		<a href="">奥莱购</a></p>
+   		<p>Copyright © 2008-2013 huijiayou.cn <a href="">家有购物集团有限公司</a> 版权所有 黔ICP备13002365号  增值电信业务经营许可证：黔B2-20120036</p>
+   	</div>
+</div>
+<script type="text/javascript" src="../jquery-1.12.0.js"></script>
+<script src="../js/car.js"></script>
+</body>
+</html>

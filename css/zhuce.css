@@ -1,0 +1,22 @@
+.zhuce{width: 1040px;margin: 0 auto;margin-bottom: 20px;overflow: hidden;background: #fff;padding: 80px;}
+
+
+.zhuceL{width: 590px;overflow: hidden;}
+.zhuceL p{overflow: hidden;margin-top: -15px;text-align: right;padding-right: 193px;height: 48px;line-height: 48px;color: #666;font-size: 14px;}
+.zhuceL p label{overflow: hidden;margin-top: -15px;text-align: right;padding-right: 193px;height: 48px;line-height: 48px;color: #666;font-size: 14px;}
+.zhuceL p a{display: block;background: #dc0f50;text-align: center;font-size: 18px;color: #fff;width:305px;}
+.zhuceL font{display: block;line-height: 20px;text-align: right;padding-right: 193px;margin-top:10px}
+.zhuceL font a{color: #666;}
+.zhuceL .mgno{margin:0}
+
+.zhuceL ul li{overflow: hidden;height: 40px;line-height: 40px;margin-bottom: 20px;}
+.zhuceL ul li b{display: block;width: 80px;font-size: 14px;color: #666;float: left;text-align: right;margin-right: 12px;}
+.zhuceL ul li b i{font-family: "宋体";color: #dc0f50;font-size: 14px;margin-right: 3px;}
+.zhuceL ul li input{width: 263px;padding: 9px 20px;height: 20px;border: 1px solid #d6d6d6;color: #666;float: left;margin-right: 15px;}
+
+#yanzheng{display: block;width: 138px;font-size: 14px;color: #666;float: left;text-align: center;margin-right: 12px;}
+.zhuceL ul li button{width: 110px;height: 40px;border: none;text-align: center;line-height: 40px;background: #dc0f50;color: #fff;font-size: 14px;float: left;margin-right: 15px;cursor: pointer;}
+
+.zhuceL ul li em.yin{display: none;height: 20px;float: left;background: url(img/correct_bg.png) no-repeat;margin-top: 10px;line-height: 20px;width:20px;}
+.zhuceL ul li em.acti{width:auto;background:none;display: block;}
+.zhuceL .mgno #mg10{margin-right: 10px;float:left;width:80px;height:100%;font-size:12px}
